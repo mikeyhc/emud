@@ -1,0 +1,2 @@
+# emud
+Erlang MUD Server
