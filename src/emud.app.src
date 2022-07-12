@@ -1,5 +1,5 @@
 {application, emud,
- [{description, "An OTP application"},
+ [{description, "Erlang MUD Server"},
   {vsn, "0.1.0"},
   {registered, []},
   {mod, {emud_app, []}},
@@ -8,8 +8,10 @@
     stdlib
    ]},
   {env,[]},
-  {modules, []},
+  {modules,
+   [emud_file
+   ]},
 
-  {licenses, ["Apache 2.0"]},
+  {licenses, ["The Unlicense"]},
   {links, []}
  ]}.
